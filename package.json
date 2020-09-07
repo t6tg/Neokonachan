@@ -1,0 +1,24 @@
+{
+	"name": "next-preact",
+	"version": "0.1.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next"
+	},
+	"dependencies": {
+		"next": "^9.2.2",
+		"preact": "^10.3.3",
+		"preact-render-to-string": "5.1.4",
+		"preact-ssr-prepass": "^1.0.1"
+	},
+	"devDependencies": {
+		"react": "^16.13.0",
+		"react-dom": "^16.13.0"
+	},
+	"resolutions": {
+		"lodash": "latest"
+	}
+}
