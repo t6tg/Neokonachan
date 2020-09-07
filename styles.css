@@ -4,3 +4,15 @@
 /* purgecss end ignore */
 
 @tailwind utilities;
+
+body {
+    @apply bg-gray-100;
+    @apply text-gray-900;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        @apply bg-gray-900;
+        @apply text-white;
+    }
+}
